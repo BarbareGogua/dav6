@@ -10,7 +10,7 @@ const ProductCard = ({ product }) => {
       <p style={{ margin: '5px 0' }}>Price: ${product.price}</p>
       <p style={{ margin: '5px 0' }}>Rate: {product.rating}</p>
       {product.rating > 3 && <p style={{ color: 'green', fontWeight: 'bold' }}>Best Seller</p>}
-      {product.stock < 3 && <p style={{ color: 'red', fontWeight: 'bold' }}>Out of Stock</p>}
+      {product.reting < 3 && <p style={{ color: 'red', fontWeight: 'bold' }}>Out of Stock</p>}
     </div>
   );
 };
