@@ -21,8 +21,8 @@ const ProductList = () => {
       })
   }, [])
 
-  if (loading) return <p>იტვირთება...</p>
-  if (error) return <p style={{ color: 'red' }}>შეცდომა: {error}</p>
+  if (loading) return <p>Loading...</p>
+  if (error) return <p style={{ color: 'red' }}>Error: {error}</p>
 
   return (
     <div className="product-list">

@@ -5,7 +5,7 @@ import ProductList from './components/ProductList'
 function App() {
   return (
     <div className="App">
-      <h1>პროდუქტების კატალოგი</h1>
+      <h1>Products</h1>
       <ProductList />
     </div>
   )
